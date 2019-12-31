@@ -1,0 +1,21 @@
+		.text
+main: 	lw $a0,data1
+		bltz $a0,print1
+		j next
+		
+print1: li $v0,1
+		syscall
+		
+next: 	lw $a0,data2
+		bltz $a0,print2
+		j done
+
+print2:	li $v0,1
+		syscall
+
+exit:  li $v0,10
+		syscall
+		
+		.data
+data1:	.word 0x6372eef5
+data2:	.word 0x91abccd2
