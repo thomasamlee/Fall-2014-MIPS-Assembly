@@ -1,4 +1,4 @@
-### Fall 2014 MIPS Assembly
+# Fall 2014 MIPS Assembly
 
 This is the MIPS Assembly code I wrote for Intro to Digital System (EE2310) at UT Dallas.
 
